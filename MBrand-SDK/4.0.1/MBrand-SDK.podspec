@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.license = 'COMMERCIAL'
   s.author = 'MBrand Inc.'
-  s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartLibs/MBrand-SDK/4.0.1/SmartAdServer-iOS-SDK-4.0.1.zip" }
+  s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartCocoapods/MBrand-SDK/4.0.1/SmartAdServer-iOS-SDK-4.0.1.zip" }
   s.platform = :ios
   
   s.resource = "SmartAdServer/sdk/sas.bundle"
