@@ -3,6 +3,12 @@ SmartCocoapods
 
 Repository Cocoapods de Smart&amp;Soft
 
+Ensemble des librairies publiques de Smart&Soft
+-----------------------------------------------
+
+- ios4me
+
+
 Ensemble des librairies privées de Smart&Soft
 ---------------------------------------------
 
