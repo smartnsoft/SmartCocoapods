@@ -27,7 +27,7 @@ end
 s.subspec "AdMob" do |sp|
   sp.ios.source_files 	= "ios4me-ext/SmartAd/Classes/AdProviders/AdMob/**/*.{h,m}"
   sp.ios.dependency     'ios4me-ext-smartad/Core'
-  sp.ios.dependency     'Google-AdMob-Ads-SDK',       '6.5.1'
+  sp.ios.dependency     'Google-Mobile-Ads-SDK',       '6.6.0'
 end
 
 s.subspec "InMobi" do |sp|
