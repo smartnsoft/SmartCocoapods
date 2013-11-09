@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name = "AdColony-SDK"
   s.version = "2.2.0"
-  #s.summary = "AdColony SDK."
-  #s.description = "The AdColony SDK."
-  #s.homepage = "http://www.AdColony.com"
+  s.summary = "AdColony SDK."
+  s.description = "The AdColony SDK."
+  s.homepage = "http://www.adcolony.com"
 
-  #s.license = 'COMMERCIAL'
-  #s.author = 'AdColony Inc.'
-  s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartCocoapods/AdColony-SDK/#{s.version}/AdColony_ios_#{s.version}.zip" }
-  #s.platform = :ios
+  s.license = 'FREE'
+  s.author = 'AdColony Inc.'
+  s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartCocoapods/AdColony-SDK/#{s.version}/AdColony-iOS-SDK-#{s.version}.zip" }
+  s.platform = :ios
   
   s.frameworks     = 'AdColony'
   s.preserve_paths = 'AdColony-iOS-SDK-2.2.0/AdColony.framework'
