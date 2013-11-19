@@ -3,6 +3,12 @@ SmartCocoapods
 
 Repository Cocoapods de Smart&amp;Soft
 
+Installation
+------------
+
+pod repo add SmartCocoapods https://github.com/smartnsoft/SmartCocoapods.git
+
+
 Ensemble des librairies publiques de Smart&Soft
 -----------------------------------------------
 
@@ -18,6 +24,7 @@ Ensemble des librairies privées de Smart&Soft
 - ios4me-ext-smartad/iAd
 
 - ios4me-ext-smartcommand
+- ios4me-ext-smartparser (working progress)
 
 Librairie externes
 ------------------
