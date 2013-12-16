@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/smartnsoft/ios4me-ext.git',
-    :tag => '1.0.0'
+    :tag => '1.0.3'
   }
   s.platform              = :ios, '5.0'
   s.ios.deployment_target = '5.0'
