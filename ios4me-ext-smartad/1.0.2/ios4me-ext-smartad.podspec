@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   
   s.ios.frameworks        = 'UIKit', 'QuartzCore', 'Foundation', 'Security'
   
-  s.ios.dependency        'JSONKit', 					'1.4'
   s.ios.dependency        'ios4me', 					'1.0.2'
 
 s.subspec "Core" do |sp|
