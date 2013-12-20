@@ -47,4 +47,10 @@ s.subspec "MBrand" do |sp|
   sp.ios.dependency     'MBrand-SDK'
 end
 
+s.subspec "mOcean" do |sp|
+  sp.ios.source_files = "ios4me-ext/SmartAd/Classes/AdProviders/mOcean/**/*.{h,m}"
+  sp.ios.dependency     'ios4me-ext-smartad/Core'
+  sp.ios.dependency     'mocean-sdk-ios', 				'3.1.0'
+end
+
 end
