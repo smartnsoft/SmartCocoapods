@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.framework = %w{SystemConfiguration CoreTelephony CFNetwork CoreLocation}
   s.weak_framework = 'AdSupport'
   s.library = 'capptain', 'reach', 'xml2'
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Capptain-SDK/capptain-sdk-ios-1.13.0/**"' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Capptain-SDK/capptain-sdk-ios-1.14.0/**"' }
 end
