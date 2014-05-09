@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.frameworks     = 'ADTECHMobileSDK'
   s.preserve_paths = 'Framework'
   s.source_files   = 'Framework/ADTECHMobileSDK.framework/Headers/*.{h}'
+  s.resource = 'Framework/ADTECHMobileSDK.framework/Resources/ADTECHMobileSDK.bundle"
   s.framework = %w{ADTECHMobileSDK AdSupport AudioToolbox AVFoundation CFNetwork CoreData CoreGraphics CoreLocation CoreMedia CoreMotion CoreTelephony EventKit EventKitUI MediaPlayer MessageUI MobileCoreServices QuartzCore Security SystemConfiguration}
   s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AdTech-SDK/Framework"' }
   s.library = 'z', 'xml2'
