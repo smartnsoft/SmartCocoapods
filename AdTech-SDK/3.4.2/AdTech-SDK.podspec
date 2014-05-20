@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   s.frameworks     	= 'ADTECHMobileSDK'
   s.preserve_paths 	= 'Framework'
-  s.source_files   	= 'Framework/ADTECHMobileSDK.framework/Headers/*.{h}'
+  s.source_files   	= 'Framework/ADTECHMobileSDK.framework/Versions/A/Headers/**/*.{h}'
   
   s.resource 		= 'Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileSDK.bundle'
 
