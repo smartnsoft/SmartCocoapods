@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.ios.source_files      = 'ios4me-ext/SmartCommand/Classes/**/*.{h,m}'
   s.ios.frameworks        = 'UIKit', 'QuartzCore', 'Foundation', 'Security'
   
-  s.ios.dependency        'ios4me', 					'1.1.0'
+  s.ios.dependency        'ios4me'
 
 end
