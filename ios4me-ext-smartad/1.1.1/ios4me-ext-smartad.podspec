@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
     'Smart&Soft' => 'contact@smartnsoft.com'
   }
   s.source = {
-    :git => 'https://github.com/smartnsoft/ios4me-ext.git',
+    #:git => 'https://github.com/smartnsoft/ios4me-ext.git',
+    :git => 'git@github.com:smartnsoft/ios4me-ext.git',
     :tag => '1.1.1'
   }
   s.platform              = :ios, '5.0'
