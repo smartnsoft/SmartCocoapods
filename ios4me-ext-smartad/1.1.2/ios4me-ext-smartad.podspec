@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ios4me-ext-smartad'
-  s.version      = '1.1.1'
+  s.version      = '1.1.2'
   s.homepage     = 'http://www.smartnsoft.com'
   s.license      = 'Commercial'
   s.summary      = 'An iOS framework built by Smart&Soft, cutting edge mobile agency in France.'
