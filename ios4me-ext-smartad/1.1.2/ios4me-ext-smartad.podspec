@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.ios.frameworks        = 'UIKit', 'QuartzCore', 'Foundation', 'Security'
   
-  s.ios.dependency        'ios4me', 					'1.1.0'
+  s.ios.dependency        'ios4me', 					'~>1.1.0'
 
 s.subspec "Core" do |sp|
   sp.ios.source_files 	= "ios4me-ext/SmartAd/Classes/Core/**/*.{h,m}"
