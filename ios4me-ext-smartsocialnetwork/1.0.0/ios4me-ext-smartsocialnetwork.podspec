@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
     :tag => '1.1.3'
   }
   s.platform              = :ios, '5.0'
+  s.requires_arc 		  = false
   s.ios.deployment_target = '5.0'
   
   s.ios.frameworks        = 'UIKit', 'QuartzCore', 'Foundation', 'Security'
