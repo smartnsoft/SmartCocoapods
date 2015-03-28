@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
     #,:tag => '1.0.3'
   }
   s.platform              = :ios, '5.0'
+  s.requires_arc 		  = false
   s.ios.deployment_target = '5.0'
   s.ios.source_files      = 'ios4me-ext/SmartParser/Classes/**/*.{h,m}'
   s.ios.frameworks        = 'UIKit', 'Foundation', 'Security'
