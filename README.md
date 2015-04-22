@@ -26,6 +26,9 @@ Ensemble des librairies privées de Smart&Soft
 - ios4me-ext-smartcommand
 - ios4me-ext-smartparser (working progress)
 
+- ios4me-ext-smartsocialnetwork (**deprecated**) => use SNSSocial instead
+- SNSSocial
+
 Librairie externes
 ------------------
 
