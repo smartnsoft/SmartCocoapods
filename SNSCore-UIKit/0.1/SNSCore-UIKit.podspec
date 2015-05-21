@@ -10,19 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "SNSCore-UIKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SNSCore-UIKit."
-  s.description      = <<-DESC
-                       An optional longer description of SNSCore-UIKit
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SNSCore-UIKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "FlorianBasso" => "florian@smartnsoft.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SNSCore-UIKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.summary          = "SNCore-UIKit provides usefull and powerfull categories based on UIKit"
+  s.homepage         = "https://github.com/smartnsoft/SNSCore-UIKit"
+  s.license          = '© Copyright 2011-2015 - Smart&Soft SAS (http://www.smartnsoft.com/)'
+  s.author           = { 'Smart&Soft' => 'contact@smartnsoft.com' }
+  s.source           = { :git => "https://github.com/smartnsoft/SNSCore-UIKit.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "SNSCore-Macros provides preprocessor macros aimed at making some common iOS development tasks easy."
   s.homepage         = "https://github.com/smartnsoft/SNSCore-Macros"
-  # s.screenshots    = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = '© Copyright 2011-2015 - Smart&Soft SAS (http://www.smartnsoft.com/)'
   s.author           = { 'Smart&Soft' => 'contact@smartnsoft.com' }
   s.source           = { :git => "https://github.com/smartnsoft/SNSCore-Macros.git", :tag => s.version.to_s }
