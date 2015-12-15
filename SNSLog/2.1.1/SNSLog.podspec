@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "SNSLog"
-  s.version          = "2.1.0"
-  s.summary          = "Console logging with log levels for apps and coloration for Xcode"
+  s.version          = "2.1.1"
+  s.summary          = "A short description of SNSLog."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/smartnsoft/SNSLog"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Smart & Soft" => "smartnsoft@smartnsoft.com" }
   s.source           = { :git => "https://github.com/smartnsoft/SNSLog.git", :tag => s.version.to_s }
@@ -27,8 +28,17 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.default_subspec = 'Default'
 
-  s.dependency 'CocoaLumberjack/Swift', '~> 2.2.0'
-  s.dependency 'le', '~> 1.1'
+  s.subspec 'Default' do |default|
+    default.source_files = 'Pod/Classes/Core/*.{h,m}'
+    default.dependency 'CocoaLumberjack/Swift', '~> 2.2.0'
+    default.dependency 'le', '~> 1.1'
+  end
+
+  s.subspec 'Swift' do |swift|
+    swift.source_files = 'Pod/Classes/Swift/*.swift'
+    swift.dependency 'SNSLog/Default'
+  end
+
 end
