@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/smartnsoft/SNSSocial.git',
-    :tag => '1.2.4'
+    :tag => '1.2.5'
   }
   s.platform              = :ios, '7.0'
   s.requires_arc          = true
