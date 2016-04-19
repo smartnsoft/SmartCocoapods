@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Sébastien LEGRAND" => "sebastien@smartnsoft.com" }
-  s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartCocoapods/AzME-SDK/#{s.version}/azme-sdk-ios-#{s.version}.zip" }
+  s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartCocoapods/AzME-SDK/#{s.version}/azuresdk-mobileengagement-ios-#{s.version}.zip" }
  
 
   s.resource = "mobileengagement-#{s.version}/EngagementReach/res/*.*"
