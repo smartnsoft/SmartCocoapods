@@ -22,20 +22,15 @@ Pod::Spec.new do |s|
   s.source = { :http => "https://dl.dropboxusercontent.com/u/135185/SmartCocoapods/AzME-SDK/#{s.version}/azuresdk-mobileengagement-ios-#{s.version}.zip" }
  
 
-  s.resource = "mobileengagement-#{s.version}/EngagementReach/res/*.*"
+  s.resource = "mobileengagement/EngagementReach/res/*.*"
 
-  s.source_files = "mobileengagement-#{s.version}/**/*.{h,m}"
+  s.source_files = "mobileengagement/EngagementSDK/**/*.{h,m}", "mobileengagement/EngagementReach/**/*.{h,m}"
 
-  s.preserve_paths = "mobileengagement-#{s.version}/*"
+  s.preserve_paths = "mobileengagement/EngagementReach/*", "mobileengagement/EngagementSDK/*"
 
-  s.vendored_libraries = "mobileengagement-#{s.version}/EngagementReach/libreach.a", "mobileengagement-#{s.version}/EngagementSDK/libengagement.a"
-
-
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.vendored_libraries = "mobileengagement/EngagementReach/libreach.a", "mobileengagement/EngagementSDK/libengagement.a"
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AzMESDK/Classes/**/*'
 
   s.framework = %w{SystemConfiguration CoreTelephony CFNetwork CoreLocation}
   s.weak_framework = 'AdSupport'
