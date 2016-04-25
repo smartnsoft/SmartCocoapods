@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "rePictuR"
   s.version      = "0.2"
   s.summary      = "rePICTUR is a fast, powerfull image manipulating service built for hi-volume mobile applications."
-  s.homepage     = "https://github.com/smartnsoft/rePictuR-ios"
+  s.homepage     = "https://github.com/koppasoft/rePictuR-ios"
   s.license      = "© Copyright 2013-2015 - Smart&Soft SAS (http://www.smartnsoft.com/)"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author = {
