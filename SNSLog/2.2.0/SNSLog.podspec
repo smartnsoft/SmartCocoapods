@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Smart & Soft" => "smartnsoft@smartnsoft.com" }
-  s.source           = { :git => "https://github.com/smartnsoft/SNSLog.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:smartnsoft/SNSLog.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

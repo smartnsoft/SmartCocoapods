@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/smartnsoft/SNSCore-Macros"
   s.license          = '© Copyright 2011-2015 - Smart&Soft SAS (http://www.smartnsoft.com/)'
   s.author           = { 'Smart&Soft' => 'contact@smartnsoft.com' }
-  s.source           = { :git => "https://github.com/smartnsoft/SNSCore-Macros.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:smartnsoft/SNSCore-Macros.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/smartnsoft/SNSCore-UIKit"
   s.license          = '© Copyright 2011-2016 - Smart&Soft SAS (http://www.smartnsoft.com/)'
   s.author           = { 'Smart&Soft' => 'contact@smartnsoft.com' }
-  s.source           = { :git => "https://github.com/smartnsoft/SNSCore-UIKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:smartnsoft/SNSCore-UIKit.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
