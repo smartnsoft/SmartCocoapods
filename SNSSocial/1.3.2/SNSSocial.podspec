@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
     'Smart&Soft' => 'contact@smartnsoft.com'
   }
   s.source = {
-    :git => 'https://github.com/smartnsoft/SNSSocial.git',
-    :tag => '1.3.2'
+    :git => 'git@github.com/smartnsoft/SNSSocial.git',
+    :tag => s.version.to_s
   }
   s.platform              = :ios, '8.0'
   s.requires_arc          = true
