@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SNSSocial'
-  s.version      = '1.2.1'
+  s.version      = '1.2.4'
   s.homepage     = 'http://www.smartnsoft.com'
   s.license      = 'Commercial'
   s.summary      = 'An iOS framework built by Smart&Soft, cutting edge mobile agency in France.'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
     'Smart&Soft' => 'contact@smartnsoft.com'
   }
   s.source = {
-    :git => 'https://github.com/smartnsoft/SNSSocial.git',
-    :tag => '1.2.1'
+    :git => 'git@github.com:smartnsoft/SNSSocial.git',
+    :tag => s.version.to_s
   }
   s.platform              = :ios, '7.0'
   s.requires_arc          = true

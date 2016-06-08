@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
-  s.name         = 'SNSSocial'
-  s.version      = '1.3.0'
+  s.name         = 'SNSSocial-Private'
+  s.version      = '1.3.1'
   s.homepage     = 'http://www.smartnsoft.com'
   s.license      = 'Commercial'
   s.summary      = 'An iOS framework built by Smart&Soft, cutting edge mobile agency in France.'
-  s.description  = 'SNSSocial - Description.'
+  s.description  = 'SNSSocial-Private - Description.'
   s.author = {
     'Smart&Soft' => 'contact@smartnsoft.com'
   }
   s.source = {
-    :git => 'https://github.com/smartnsoft/SNSSocial.git',
-    :tag => '1.3.0'
+    :git => 'git@github.com:smartnsoft/SNSSocial-Private.git',
+    :tag => s.version.to_s
   }
   s.platform              = :ios, '7.0'
   s.requires_arc          = true
@@ -28,6 +28,7 @@ s.subspec "Facebook" do |sp|
   sp.ios.dependency     'FBSDKCoreKit',   '4.11.0'
   sp.ios.dependency     'FBSDKShareKit',  '4.11.0'
   sp.ios.dependency     'FBSDKLoginKit',  '4.11.0'
+  sp.ios.xcconfig = {'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
 end
 
 end
