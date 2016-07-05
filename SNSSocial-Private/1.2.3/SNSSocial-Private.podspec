@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'SNSSocial'
+  s.name         = 'SNSSocial-Private'
   s.version      = '1.2.3'
   s.homepage     = 'http://www.smartnsoft.com'
   s.license      = 'Commercial'
@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
     'Smart&Soft' => 'contact@smartnsoft.com'
   }
   s.source = {
-    :git => 'git@github.com:smartnsoft/SNSSocial.git',
+    :git => 'git@github.com:smartnsoft/SNSSocial-Private.git',
     :tag => s.version.to_s
   }
   s.platform              = :ios, '7.0'
   s.requires_arc          = true
   s.ios.deployment_target = '7.0'
-  
+
   s.ios.frameworks        = 'UIKit', 'QuartzCore', 'Foundation', 'Security'
 
 s.subspec "Twitter" do |sp|
