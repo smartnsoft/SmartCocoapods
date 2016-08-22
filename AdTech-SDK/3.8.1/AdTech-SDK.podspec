@@ -102,12 +102,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files = "Classes", "Classes/**/*.{h,m}"
+  s.source_files = "*/Framework/ADTECHMobileSDK.framework/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = 'Framework/ADTECHMobileSDK.framework/Headers/*.h'
-  s.private_header_files = 'Framework/ADTECHMobileSDK.framework/PrivateHeaders/*.h'
-  s.vendored_frameworks = 'Framework/ADTECHMobileSDK.framework'
+  s.public_header_files = '*/Framework/ADTECHMobileSDK.framework/Headers/*.h'
+  s.private_header_files = '*/Framework/ADTECHMobileSDK.framework/PrivateHeaders/*.h'
+  s.vendored_frameworks = '*/Framework/ADTECHMobileSDK.framework'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -117,8 +117,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources = 'Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'
-  s.preserve_paths  = 'Framework'
+  s.resources = '*/Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'
+  s.preserve_paths  = '*/Framework/ADTECHMobileSDK.framework/*'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AdTech-SDK/Framework"' }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
