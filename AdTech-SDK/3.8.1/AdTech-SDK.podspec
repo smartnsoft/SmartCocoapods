@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   s.resources = 'Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'
-  # s.preserve_paths = 'Framework'
+  s.preserve_paths  = 'Framework'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
