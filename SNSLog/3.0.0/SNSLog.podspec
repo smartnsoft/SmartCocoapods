@@ -28,8 +28,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/Swift/*.swift', 'Pod/Classes/logEntries/*.{h,m}'
-  s.ios.resource_bundle = { 'BundleSettings' => 'Pod/Classes/Settings.bundle' }
+  s.source_files = 'SNSLogSwift/Classes/*.swift'
   s.dependency 'CocoaLumberjack/Swift', '3.0.0'
 
 # http://qiita.com/See_Ku/items/470a252780f1e0a2fdf9
