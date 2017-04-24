@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Allan Vialatte' => 'allan@smartnsoft.com' }
   s.source           = { :git => 'https://github.com/smartnsoft/Smartlane.git', :tag => s.version.to_s }
-  s.preserve_paths = '.fastlane/*', 'Local_Fastfile.rb'
+  s.preserve_paths = 'fastlane/*', 'Customfile', 'fastlane/.env', 'Gemfile'
 end
