@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/smartnsoft/Smartlane'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Smart&Soft' => 'dev@smartnsoft.com' }
-  s.source = { :git => 'https://github.com/smartnsoft/Smartlane.git', :tag => s.version.to_s }
+  s.source = { :git => 'git@github.com:smartnsoft/Smartlane.git', :tag => s.version.to_s }
   s.preserve_paths = 'Gemfile', 'fastlane/*', 'fastlane/.env', 'scripts/post_install'
 end
