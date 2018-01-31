@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = "Pod handling synchronization of strings handled with a remote server"
   s.description      = <<-DESC "Pod handling synchronization of strings handled with a remote server"
                        DESC
-  s.homepage            = "https://github.com/smartnsoft/EQStringManager-ios.git"
+  s.homepage            = "https://github.com/smartnsoft/EQStringManager-ios"
   s.license             = 'MIT'
   s.author              = { 'Smart&Soft' => 'contact@smartnsoft.com' }
   s.source              = { :git => "https://github.com/smartnsoft/EQStringManager-ios.git", :tag => s.version.to_s }
