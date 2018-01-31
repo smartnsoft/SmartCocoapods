@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/smartnsoft/EQStringManager-ios"
   s.license             = 'MIT'
   s.author              = { 'Smart&Soft' => 'contact@smartnsoft.com' }
-  s.source              = { :git => "https://github.com/smartnsoft/EQStringManager-ios.git", :tag => s.version.to_s }
+  s.source              = { :git => "git@github.com:smartnsoft/EQStringManager-ios.git", :tag => s.version.to_s }
   s.platform            = :ios, '7.0'
   s.requires_arc        = true
   s.source_files        = 'Pod/Classes/**/*'
